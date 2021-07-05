@@ -17,7 +17,7 @@ h1{
     display:flex;
 }
 #about{
-    background-image: url(/Image/top-banner.png);
+    background-image: url(Image/top-banner.png);
     background-repeat: no-repeat;
 }
 .about{
