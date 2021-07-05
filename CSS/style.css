@@ -16,6 +16,10 @@ h1{
 .first{
     display:flex;
 }
+#about{
+    background-image: url(/Image/top-banner.png);
+    background-repeat: no-repeat;
+}
 .about{
     margin: 5px;
     width: 50%;       
