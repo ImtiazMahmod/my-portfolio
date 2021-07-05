@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+  
 }
 
 h1{
@@ -17,7 +18,7 @@ h1{
     display:flex;
 }
 #about{
-    background-image: url(/Image/top-banner.png);
+    background-image: url(Image/top-banner.png);
     background-repeat: no-repeat;
 }
 .about{
@@ -33,10 +34,11 @@ h1{
 .button{
     text-decoration: none;
     padding: 20px 40px;
-    background-image: linear-gradient(tomato orange);
-    background-color: goldenrod;
+    background: linear-gradient(135deg,orange, tomato);
+    /* background-color: goldenrod; */
     color: white;
     font: 700;
+    overflow:auto ;
 }
 
 .resume{
