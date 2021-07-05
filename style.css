@@ -11,11 +11,10 @@ h1{
     font-size: 5vw;
 }
 
-#h1{
-    color:rgb(255, 170, 67)
-}
+
 .first{
     display:flex;
+    margin-bottom: 180px;
 }
 #about{
     background-image: url(Image/top-banner.png);
@@ -35,10 +34,11 @@ h1{
     text-decoration: none;
     padding: 20px 40px;
     background: linear-gradient(135deg,orange, tomato);
-    /* background-color: goldenrod; */
+    
     color: white;
     font: 700;
-    overflow:auto ;
+   
+    border-radius: 5%;
 }
 
 .resume{
@@ -48,30 +48,47 @@ h1{
 .resume img{
     width: 100%;
 }
-#exp{
-    display: block;
-    width: 100%;
 
+#resume{
+    background-image: url(Image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
+
 .exp{
     width: 40%;
+    height: auto;
+    
+    border-radius: 15px;
+    box-shadow:2px 2px 25px  rgb(107, 104, 72) ;
+    padding-left: 20px;
+    margin-left: 5% ;
+    margin-right: 5%;
 }
 
 #box1{
-         
-    height: auto;
-    border-left: 5px solid rgb(108, 250, 89);
-    padding: 20px;
-    margin: 20px;
-    box-shadow:2px 2px 25px  rgb(253, 232, 41) ;
-    padding: 20px;
-    margin: 20px 0 20px 20px ;
+    border-left: 5px solid ;     
+   border-image: linear-gradient( tomato,orange);
+    border-image-slice: 1;
 }
 #box2{
        
-     height: auto;
-    border-left: 5px solid goldenrod;
-    padding: 20px;
-    margin: 20px 20px 20px 0;
-    box-shadow:2px 2px 25px  blue ;
+    border-left: 5px solid ;     
+    border-image: linear-gradient( rgb(255, 230, 5),rgb(255, 145, 0));
+     border-image-slice: 1;
+     border-radius: 15px;
+}
+
+.color{
+    color: orange;
+}
+
+.experience{
+    background-image: url(Image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+footer p{
+    text-align: center;
 }
